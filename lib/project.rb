@@ -3,7 +3,7 @@ class Project
   
   def initialize(title) 
     @backers = []
-    
+    @title = title 
   end 
   
   def add_backer(backer)
