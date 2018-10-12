@@ -9,7 +9,7 @@ class Backer
 
   def back_project(project)
     @backed_projects << project 
-    Song.new_by_filename(filename)
+    Project.new()
   end 
   
   
